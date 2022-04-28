@@ -54,6 +54,13 @@ Erel_perc_sol=err_perc_sol';
 
 T=table(Erel_perc_dat, Erel_perc_sol)
 
+% f) Si può osservare che per alpha molto piccolo (vicino a 0) l'indice di 
+% condizionamento è molto grande, rendendo l'errore relativo sulle
+% soluzioni molto grande (problema mal condizionato). Mentre per alpha 
+% molto grande (vicino a 2/3) l'indice di condizionamento è molto piccolo, 
+% rendendo l'errore relativo sulle soluzioni molto piccolo (problema ben 
+% condizionato).
+
 
 
 
